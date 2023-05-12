@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- マスキングオブジェクト --></value>
+    </caseValues>
+    <fields>
+        <label><!-- API Name --></label>
+        <name>datamask__API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>datamask__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Batch Data --></label>
+        <name>datamask__Batch_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom --></label>
+        <name>datamask__Custom__c</name>
+    </fields>
+    <fields>
+        <label><!-- DataMask Configuration --></label>
+        <name>datamask__DataMask_Configuration__c</name>
+        <relationshipLabel><!-- Masking Objects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Filter Enabled --></label>
+        <name>datamask__Filter_Enabled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Prepped Date --></label>
+        <name>datamask__Last_Prepped_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Master Object --></label>
+        <name>datamask__Master_Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Fields --></label>
+        <name>datamask__Number_of_Fields__c</name>
+    </fields>
+    <fields>
+        <label><!-- Raw Filter Data --></label>
+        <name>datamask__Raw_Filter_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Count --></label>
+        <name>datamask__Record_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Run In Poly --></label>
+        <name>datamask__Run_In_Poly__c</name>
+    </fields>
+    <fields>
+        <label><!-- Run In Serial --></label>
+        <name>datamask__Run_In_Serial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Where Criteria LT --></label>
+        <name>datamask__Where_Criteria_LT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Where Criteria --></label>
+        <name>datamask__Where_Criteria__c</name>
+    </fields>
+</CustomObjectTranslation>

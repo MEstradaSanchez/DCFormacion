@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- API Name --></label>
+        <name>datamask__API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>datamask__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Pattern --></label>
+        <name>datamask__Custom_Pattern__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom --></label>
+        <name>datamask__Custom__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Max --></label>
+        <name>datamask__Date_Max__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Min --></label>
+        <name>datamask__Date_Min__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Length --></label>
+        <name>datamask__Field_Length__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field Type --></label>
+        <name>datamask__Field_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Masking Category --></label>
+        <name>datamask__Masking_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Masking Object --></label>
+        <name>datamask__Masking_Object__c</name>
+        <relationshipLabel><!-- Masking Fields --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Masking Type --></label>
+        <name>datamask__Masking_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pattern Data --></label>
+        <name>datamask__Pattern_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Range Max --></label>
+        <name>datamask__Range_Max__c</name>
+    </fields>
+    <fields>
+        <label><!-- Range Min --></label>
+        <name>datamask__Range_Min__c</name>
+    </fields>
+    <fields>
+        <label><!-- Required --></label>
+        <name>datamask__Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique --></label>
+        <name>datamask__Unique__c</name>
+    </fields>
+</CustomObjectTranslation>

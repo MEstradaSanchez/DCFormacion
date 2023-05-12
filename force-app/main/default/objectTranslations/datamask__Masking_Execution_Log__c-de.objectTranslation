@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Ausführungsprotokoll</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Ausführungsprotokolle</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Ausführungsprotokoll</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Ausführungsprotokolle</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Ausführungsprotokolls</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Ausführungsprotokolle</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Ausführungsprotokoll</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Ausführungsprotokollen</value>
+    </caseValues>
+    <fields>
+        <label><!-- Configuration Id --></label>
+        <name>datamask__Configuration_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Configuration Name --></label>
+        <name>datamask__Configuration_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Message --></label>
+        <name>datamask__Error_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Master --></label>
+        <name>datamask__Has_Master__c</name>
+    </fields>
+    <fields>
+        <label><!-- Masking Execution Id --></label>
+        <name>datamask__Masking_Execution_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>datamask__Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Processing --></label>
+        <name>datamask__Object_Processing__c</name>
+    </fields>
+    <fields>
+        <help>Die Gesamtzahl der Datensätze für das zu bearbeitende Objekt.</help>
+        <label><!-- Record Count Total --></label>
+        <name>datamask__Record_Count_Total__c</name>
+    </fields>
+    <fields>
+        <help>Gesamtzahl der Datensätze für dieses Objekt, die fehlgeschlagen sind.</help>
+        <label><!-- Records Failed --></label>
+        <name>datamask__Records_Failed__c</name>
+    </fields>
+    <fields>
+        <help>Gesamtzahl der verarbeiteten Datensätze für dieses Objekt.</help>
+        <label><!-- Records Processed --></label>
+        <name>datamask__Records_Processed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>datamask__Status__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation>Fehler</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation>Erfolg</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>datamask__Type__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation>Fehler</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Execution Completion</masterLabel>
+            <translation>Abschluss der Ausführung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Execution Start</masterLabel>
+            <translation>Beginn der Ausführung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Object Processing Completion</masterLabel>
+            <translation>Abschluss der Objektverarbeitung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Object Start</masterLabel>
+            <translation>Objektbeginn</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Sonstiges</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Post-Processing Completion</masterLabel>
+            <translation>Abschluss der Nachbearbeitung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Processing Completion</masterLabel>
+            <translation>Abschluss der Vorverarbeitung</translation>
+        </picklistValues>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Name des Ausführungsprotokolls</nameFieldLabel>
+</CustomObjectTranslation>

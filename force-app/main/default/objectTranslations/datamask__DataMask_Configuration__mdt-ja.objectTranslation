@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- DataMask 設定 --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Aborting --></label>
+        <name>datamask__Aborting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>datamask__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anonymize Case Comments --></label>
+        <name>datamask__Anonymize_Case_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created By --></label>
+        <name>datamask__Created_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Date --></label>
+        <name>datamask__Created_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delete Chatter --></label>
+        <name>datamask__Delete_Chatter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delete Email --></label>
+        <name>datamask__Delete_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>datamask__Language__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Edit By --></label>
+        <name>datamask__Last_Edit_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Edit --></label>
+        <name>datamask__Last_Edit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Prepped Date --></label>
+        <name>datamask__Last_Prepped_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>datamask__Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Password --></label>
+        <name>datamask__Password__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sandbox Name --></label>
+        <name>datamask__Sandbox_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Security Token --></label>
+        <name>datamask__Security_Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>datamask__Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>有効</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hidden</masterLabel>
+            <translation>非表示</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation>無効</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Username --></label>
+        <name>datamask__Username__c</name>
+    </fields>
+</CustomObjectTranslation>

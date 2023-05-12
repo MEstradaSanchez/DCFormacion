@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Anonymize Case Comments --></label>
+        <name>datamask__Anonymize_Case_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anonymize Email --></label>
+        <name>datamask__Anonymize_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Execution Id --></label>
+        <name>datamask__Current_Execution_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delete Chatter --></label>
+        <name>datamask__Delete_Chatter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delete Email --></label>
+        <name>datamask__Delete_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delete Field History --></label>
+        <name>datamask__Delete_Field_History__c</name>
+    </fields>
+    <fields>
+        <label><!-- Language --></label>
+        <name>datamask__Language__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Id --></label>
+        <name>datamask__Last_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Threads Completed --></label>
+        <name>datamask__Threads_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Threads Running --></label>
+        <name>datamask__Threads_Running__c</name>
+    </fields>
+</CustomObjectTranslation>

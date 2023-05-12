@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- API Name --></label>
+        <name>datamask__API_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feed History Deactivated --></label>
+        <name>datamask__Feed_History_Deactivated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Field History Deactivated --></label>
+        <name>datamask__Field_History_Deactivated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Id --></label>
+        <name>datamask__Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Object --></label>
+        <name>datamask__Parent_Object__c</name>
+    </fields>
+    <fields>
+        <label><!-- Run Log --></label>
+        <name>datamask__Run_Log__c</name>
+        <relationshipLabel><!-- Object Metadata --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>datamask__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>datamask__Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Update Status --></label>
+        <name>datamask__Update_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Version Number --></label>
+        <name>datamask__Version_Number__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Journal d&apos;exécution</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Journaux d&apos;exécution</value>
+    </caseValues>
+    <fields>
+        <label><!-- Configuration Id --></label>
+        <name>datamask__Configuration_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Configuration Name --></label>
+        <name>datamask__Configuration_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Message --></label>
+        <name>datamask__Error_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Master --></label>
+        <name>datamask__Has_Master__c</name>
+    </fields>
+    <fields>
+        <label><!-- Masking Execution Id --></label>
+        <name>datamask__Masking_Execution_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message --></label>
+        <name>datamask__Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Processing --></label>
+        <name>datamask__Object_Processing__c</name>
+    </fields>
+    <fields>
+        <help>Nombre total d&apos;enregistrements en cours de traitement pour l&apos;objet.</help>
+        <label><!-- Record Count Total --></label>
+        <name>datamask__Record_Count_Total__c</name>
+    </fields>
+    <fields>
+        <help>Nombre total d&apos;enregistrements échoués pour cet objet.</help>
+        <label><!-- Records Failed --></label>
+        <name>datamask__Records_Failed__c</name>
+    </fields>
+    <fields>
+        <help>Nombre total d&apos;enregistrements traités pour cet objet.</help>
+        <label><!-- Records Processed --></label>
+        <name>datamask__Records_Processed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>datamask__Status__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation>Erreur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation>Réussi</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>datamask__Type__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation>Erreur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Execution Completion</masterLabel>
+            <translation>Réalisation de l&apos;exécution</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Execution Start</masterLabel>
+            <translation>Démarrage de l&apos;exécution</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Object Processing Completion</masterLabel>
+            <translation>Réalisation du traitement de l&apos;objet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Object Start</masterLabel>
+            <translation>Démarrage de l&apos;objet</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Post-Processing Completion</masterLabel>
+            <translation>Réalisation du post-traitement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Processing Completion</masterLabel>
+            <translation>Réalisation du pré-traitement</translation>
+        </picklistValues>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nom du journal d&apos;exécution</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,75 @@
+<template>
+    <lightning-card title="Email Masking" icon-name="custom:custom14">
+
+        <lightning-radio-group class="slds-p-left_xx-large" label="Metadata type to search" options={options}
+            value={value} onchange={handleChange} required>
+        </lightning-radio-group>
+
+
+        <template if:true={readyPrefix}>
+            <lightning-input type = "text" class="slds-p-left_xx-large slds-p-right_xx-large" value={emailPrefixInputValue}
+               onchange={nameChange} placeholder="Enter prefix value" label="Enter Prefix"></lightning-input>
+        </template>
+        <div class="slds-align_absolute-center">
+            <lightning-button class=" slds-p-top_xx-small" label="Search" onclick={handleLoad}></lightning-button>
+            <lightning-button class=" slds-p-top_xx-small slds-p-left_xx-small" label="Download CSV"
+                onclick={handleDownload}></lightning-button>
+            <lightning-button class=" slds-p-top_xx-small slds-p-left_xx-small" label="Select All"
+                onclick={handleSelectAll}></lightning-button>
+            <lightning-button class=" slds-p-top_xx-small slds-p-left_xx-small" label="Mask Fields"
+                onclick={handleMask}></lightning-button>
+        </div>
+        <template if:true={readySearch}>
+            <template if:true={objWithEmailOrPhone}>
+                <lightning-card title="Objects and fields with Email or Phone">
+                    <table class="slds-table slds-table_bordered slds-table_cell-buffer slds-table_col-bordered">
+                        <thead>
+                            <tr class="slds-text-title_caps">
+                                <th scope="col">
+                                    <div title="Key">Object</div>
+                                </th>
+                                <th scope="col">
+                                    <div title="Value" class="slds-p-left_x-large">FieldName</div>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <template for:each={objWithEmailOrPhone} for:item="keyValue">
+                                <tr key={keyValue.key}>
+                                    <th scope="col">
+                                        <div>{keyValue.key}</div>
+                                    </th>
+                                    <th>
+                                        <template for:each={keyValue.value} for:item="value">
+                                            <div key={value} class="slds-align_absolute-center">
+                                                <div class="slds-col slds-size_2-of-3">
+                                                    <span>{value} </span>
+                                                </div>
+                                                <div class="slds-grid slds-gutters">
+                                                    <div class="slds-col slds-size_1-of-3">
+                                                        <span>
+                                                            <lightning-input type="checkbox-button" label={value}
+                                                                value={keyValue.key} onchange={handleSelected}
+                                                                class="field"></lightning-input>
+                                                        </span>
+                                                    </div>
+
+                                                </div>
+
+                                                <br />
+                                            </div>
+                                        </template>
+                                    </th>
+                                </tr>
+                            </template>
+                        </tbody>
+                    </table>
+                </lightning-card>
+            </template>
+
+        </template>
+
+
+
+    </lightning-card>
+</template>
