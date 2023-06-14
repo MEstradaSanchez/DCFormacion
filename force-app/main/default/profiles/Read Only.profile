@@ -6,8 +6,24 @@
         <field>Account.Field_DevOps_test__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Event.Test_Nuevo_Campo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Task.Test_Nuevo_Campo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Formato de cuentas</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Event-Formato de eventos</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Task-Formato de tareas</layout>
     </layoutAssignments>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
