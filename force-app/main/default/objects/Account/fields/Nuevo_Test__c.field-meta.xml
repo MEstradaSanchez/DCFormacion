@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Test_Nuevo_Campo__c</fullName>
-    <description>Probamos deploy nuevo campo DevOps Center</description>
+    <fullName>Nuevo_Test__c</fullName>
+    <description>Nuevo campo para test</description>
     <externalId>false</externalId>
-    <label>Test Nuevo Campo</label>
+    <label>Nuevo Test</label>
     <length>55</length>
     <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
     <type>Text</type>
     <unique>false</unique>
 </CustomField>
