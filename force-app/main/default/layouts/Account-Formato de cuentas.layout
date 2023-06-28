@@ -23,6 +23,10 @@
                 <behavior>Edit</behavior>
                 <field>Nuevo_Test__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>TestWI_DevOps__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
