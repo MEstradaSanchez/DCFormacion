@@ -2,22 +2,33 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <custom>false</custom>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Account.Field_DevOps_test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Nuevo_Test__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.Nuevo_Test__c</field>
+        <field>Event.TestDevOps__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.TestWI_DevOps__c</field>
+        <field>Task.TestDevOps__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Formato de cuentas</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Event-Formato de eventos</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Task-Formato de tareas</layout>
     </layoutAssignments>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
