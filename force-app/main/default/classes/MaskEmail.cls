@@ -14,8 +14,8 @@ public with sharing class MaskEmail {
     * @return returns a Map<String,List<string> with the ObjectNames and their FieldNames for the object defined in the parameter
     */
     public static Map<String,List<string> > search_value (String type){
-    /*******************************************************************************************************
-    * Prueba combinar
+         /*******************************************************************************************************
+    * Prueba
     */
         Map<String,List<string> > table = new Map<String,List<string>>();  
         Map<String, Schema.SObjectType > globalDescription = Schema.getGlobalDescribe();   
