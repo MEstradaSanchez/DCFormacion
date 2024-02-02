@@ -15,7 +15,7 @@ public with sharing class MaskEmail {
     */
     public static Map<String,List<string> > search_value (String type){
     /*******************************************************************************************************
-    * Prueba combinar
+    * TestDeploy
     */
         Map<String,List<string> > table = new Map<String,List<string>>();  
         Map<String, Schema.SObjectType > globalDescription = Schema.getGlobalDescribe();   
