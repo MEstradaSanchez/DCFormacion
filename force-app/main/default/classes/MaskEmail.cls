@@ -17,7 +17,6 @@ public with sharing class MaskEmail {
     /*******************************************************************************************************
     * TestDeploy2
     */
-    Forzar ERROR
         Map<String,List<string> > table = new Map<String,List<string>>();  
         Map<String, Schema.SObjectType > globalDescription = Schema.getGlobalDescribe();   
         Set <String> listsObjs = new Set <String>();     
