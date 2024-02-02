@@ -3,9 +3,8 @@
     <fullName>TestDevOps__c</fullName>
     <externalId>false</externalId>
     <label>TestDevOps</label>
-    <precision>3</precision>
+    <length>55</length>
     <required>false</required>
-    <scale>0</scale>
-    <type>Number</type>
+    <type>Text</type>
     <unique>false</unique>
 </CustomField>
