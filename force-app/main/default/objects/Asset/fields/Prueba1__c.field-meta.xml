@@ -3,7 +3,7 @@
     <fullName>Prueba1__c</fullName>
     <externalId>false</externalId>
     <label>Prueba1</label>
-    <length>25</length>
+    <length>24</length>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <type>Text</type>
