@@ -37,13 +37,18 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Event.TestDevOps__c</field>
+        <field>Account.TestDeploy__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Task.TestDevOps__c</field>
-        <readable>true</readable>
+        <editable>false</editable>
+        <field>Account.TestFran__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.TestWI_DevOps__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Formato de cuentas</layout>
