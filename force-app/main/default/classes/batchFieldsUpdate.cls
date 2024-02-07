@@ -2,9 +2,6 @@
 * @author Adria Gil Sole
 * @date 2021
 * WI-000019
-* WI-000021
-* WI-000022
-* WI-000021
 * @description This class contains a Batch process to update Email or Phone fields for the objects we want using Apex Jobs
 */
 
