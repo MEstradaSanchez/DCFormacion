@@ -4,6 +4,10 @@
         <apexClass>MaskEmail</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>batchFieldsUpdate</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -32,6 +36,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Asset.Prueba1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Event.TestDevOps__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -42,6 +51,9 @@
     </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Formato de cuentas</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Asset-Formato de activos</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Event-Formato de eventos</layout>
