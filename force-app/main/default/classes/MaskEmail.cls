@@ -17,6 +17,7 @@ public with sharing class MaskEmail {
     /*******************************************************************************************************
     * TestDeploy3
       Probamos un despliegue con error
+      Test_Sync
     */ 
 
         Map<String,List<string> > table = new Map<String,List<string>>();  
