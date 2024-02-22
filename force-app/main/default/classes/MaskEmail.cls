@@ -16,7 +16,6 @@ public with sharing class MaskEmail {
     public static Map<String,List<string> > search_value (String type){
     /*******************************************************************************************************
     * TestDeploy3
-      Probamos un despliegue con error
       Test_Sync
     */ 
 
